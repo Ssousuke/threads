@@ -17,7 +17,7 @@ public class Test04 {
         t2.start();
         t3.start();
 
-        // Espera a execução das threads para imprimir a mensagem final
+        // Espera finalizar a execução das threads para imprimir a mensagem
         try {
             t1.join();
             t2.join();
