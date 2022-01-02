@@ -1,6 +1,6 @@
-package introduction.implementsRunnable.application;
+package implementsRunnable.application;
 
-import introduction.implementsRunnable.thread.MyThreadRunnable;
+import implementsRunnable.thread.MyThreadRunnable;
 
 public class Main {
     public static void main(String[] args) {

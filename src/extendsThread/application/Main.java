@@ -1,6 +1,6 @@
-package introduction.extendsThread.application;
+package extendsThread.application;
 
-import introduction.extendsThread.thread.MyThread;
+import extendsThread.thread.MyThread;
 
 public class Main {
     public static void main(String[] args) {

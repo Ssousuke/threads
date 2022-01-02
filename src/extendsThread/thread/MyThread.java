@@ -1,14 +1,13 @@
-package introduction.implementsRunnable.thread;
+package extendsThread.thread;
 
-public class MyThreadRunnable implements Runnable {
+public class MyThread extends Thread {
     private String name;
     private int time;
 
-    public MyThreadRunnable(String name, int time) {
+    public MyThread(String name, int time) {
         this.name = name;
         this.time = time;
-        Thread t = new Thread(this);
-        t.start();
+        start();
     }
 
     @Override
