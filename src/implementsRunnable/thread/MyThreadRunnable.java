@@ -7,8 +7,8 @@ public class MyThreadRunnable implements Runnable {
     public MyThreadRunnable(String name, int time) {
         this.name = name;
         this.time = time;
-        Thread t = new Thread(this);
-        t.start();
+        // Thread t = new Thread(this);
+        // t.start();
     }
 
     @Override
